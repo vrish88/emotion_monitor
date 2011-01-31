@@ -1,0 +1,21 @@
+The first, basic version of the emotion monitor. This is a simple script designed to run every 15 minutes simply sending you a direct message asking for your current emotion and you activity.
+
+The acceptable emotions are:
+- Joy
+- Trust
+- Fear
+- Surprise
+- Sadness
+- Disgust
+- Anger
+- Anticipation
+
+In order to set this up for yourself, you'll have to register an application with twitter, get your oauth keys, and set up a configuration.yml file that looks like the following:
+
+consumer_key: consumer_key_here
+consumer_secret: consumer_secret_here
+oauth_token: oauth_token_here
+oauth_token_secret: oauth_token_secret
+username: the_username_that_you_want_dms_to_be_sent_to
+
+Or I could add you to my script.
