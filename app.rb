@@ -1,6 +1,4 @@
 require 'twitter'
-require 'sqlite3'
-require 'ruby-debug'
 
 settings = YAML::load(File.read('credentials.yml'))
 
